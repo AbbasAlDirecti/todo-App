@@ -1,1 +1,51 @@
-/*write css here*/
+
+.navBar{
+    height:100px;
+    display:flex;
+    background-color: #54b7e8;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+
+}
+#form{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    padding:10px;
+}
+#todo{
+    flex-grow:3;
+    margin:1px;
+}
+#submit{
+    flex-grow:1;
+    margin:1px;
+    background-color:grey;
+}
+.colNames{
+    display:flex;
+    font-family:Arial;
+    justify-content:space-around;
+    margin:10px;
+    font-size:15px;
+}
+.list{
+    display:flex;
+    padding:0;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction:column;
+}
+.list > *{
+     background-color:#e0dfdc;
+     width: 100%;
+     margin:1px;
+     height:30px;
+     display:flex;
+     align-items: center;
+}
+#title{
+    color:white;
+    font-family: Arial;
+}

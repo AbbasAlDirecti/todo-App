@@ -2,9 +2,31 @@
 <html>
 <head>
     <title>Todo APP</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-Write your code here
+
+    <section class="navBar">
+        <header >
+            <h1 id="title" >Todo App</h1>
+        </header>
+        <form action="/action_page.php" id="form">
+            <input type="text" id="todo" name="todo">
+            <input type="submit" id="submit" value="Add">
+        </form>
+    </section>
+    <div class="mn">
+        <section class="colNames">
+            <div id="all">ALL</div>
+            <div id="completed">COMPLETED</div>
+            <div id="pending">PENDING</div>
+        </section>
+        <ul class="list">
+            <li>buy the milk</li>
+            <li>rent a car</li>
+        </ul>
+    </div>
+
 </body>
 </html>
